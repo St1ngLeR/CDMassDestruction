@@ -1,0 +1,42 @@
+# ASI-plugin - Mass Destruction
+# ---------------------------------------------------------------------------------
+
+Language: eng	# eng, rus, ger
+LanguageName: English	# English, Русский, Deutsch
+Sections: 3
+
+#-------------------------------------------------------------------------------------
+SECTION: MassDestruction.Interface
+Keys: 2
+
+ID   btnMassDestruction1.Caption
+DESC
+TEXT Mass Destruction
+
+ID   btnMassDestruction2.Caption
+DESC
+TEXT Mass Destruction II
+
+#-------------------------------------------------------------------------------------
+SECTION: MassDestruction.Results
+Keys: 1
+
+ID   DESTROYEDOBJECTS
+DESC
+TEXT Destroyed Objects
+
+#---------------------------------------------------------------------------------------
+SECTION: gametips/minigamemass
+Keys: 3
+
+ID   tip01
+DESC
+TEXT Don't forget to destroy \3explosive objects\d as well, they give you more points!
+
+ID   tip02
+DESC
+TEXT Don't waste any time and try to destroy as many \3objects\d as possible!
+
+ID   tip03
+DESC
+TEXT Finish the career's \3final fight\d to unlock the second Mass Destruction mini game!

@@ -1,0 +1,41 @@
+$ID career/minigamemass1.txt EventTitle # event title
+auto        # mission objective displayed
+none # event participation condition
+1st=6800 2nd=3400 3rd=1700 4th=700 5th=0 6th=0 # cash payment type
+0            # secret bonus cash
+5              # respect points for winning
+0           # additional respect points: finish block/division
+minigame/mini_mass_1.trk # track
+career/amateurs1.tga # Background image
+none # movie file after event finish
+none # spoken briefing audio file
+none        # soundtrack for the event
+none          # radio message audio file
+0           # set to 1 to always unlock track for singleplayer game
+minigame # mode
+
+
+START_OF_EVENT_DETAILS # ------------------------------------------------------------ #
+
+
+opps=0
+damagerealism=0 
+gamevar=minigame-maxdestruction
+gamemodetime=60				# game time
+
+forcecar[0]=pickup
+forcecartunings[0]=arm2|perf2|crsh2|pnt1|fb1|hd1|sid1|rb1|wng2|susp2
+forcecarcolor[0]=485850
+forcewheel[0]=offroad_s2_15.whl
+forcenitro[0]=abnitro
+forceminigun[0]=force
+forceminigunammo[0]=1200
+forcemines[0]=none
+forcemissile[0]=single
+forcemissileammo[0]=20
+
+END_OF_EVENT_DETAILS  # ------------------------------------------------------------ #
+
+START_OF_BRIEFING_TEXT # ----------------------------------------------------------- #
+$ID career/minigamemass1.txt BriefingText
+END_OF_BRIEFING_TEXT # ------------------------------------------------------------- #

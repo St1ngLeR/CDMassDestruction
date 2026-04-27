@@ -1,0 +1,43 @@
+# ASI-plugin - Mass Destruction
+# ---------------------------------------------------------------------------------
+
+Language: rus	# eng, rus, ger
+LanguageName: Русский	# English, Русский, Deutsch
+Sections: 3
+
+#-------------------------------------------------------------------------------------
+SECTION: MassDestruction.Interface
+Keys: 2
+
+ID   btnMassDestruction1.Caption
+DESC
+TEXT Тотальное уничтожение
+
+ID   btnMassDestruction2.Caption
+DESC
+TEXT Тотальное уничтожение II
+
+#-------------------------------------------------------------------------------------
+SECTION: MassDestruction.Results
+Keys: 1
+
+ID   DESTROYEDOBJECTS
+DESC
+TEXT Уничтоженные объекты
+
+#---------------------------------------------------------------------------------------
+SECTION: gametips/minigamemass
+Keys: 3
+
+ID   tip01
+DESC
+TEXT Не забывай также уничтожать и \3взрывоопасные объекты\d, они дают больше очков!
+
+ID   tip02
+DESC
+TEXT Не теряй времени и старайся уничтожить как можно больше \3объектов\d!
+
+ID   tip03
+DESC
+TEXT Прохождение \3финального поединка\d откроет вторую мини игру Тотальное уничтожение II!
+
