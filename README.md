@@ -10,3 +10,6 @@ Main plugin features:
 - Doesn't replace existing game content
 - The high scores are recording and showing properly
 - Has its own game tips on the loading screen
+
+## Install & usage
+To make ASI plugin work in the game you need to use [ThirteenAG's Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader) and put plugin files in to game directory or folders mentioned in ThirteenAG's loader GitHub page.
